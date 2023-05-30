@@ -90,6 +90,10 @@ p {
 	border-bottom: 8px solid #292929;
 }
 
+p.phrase {
+	display: none;
+}
+
 .phrase_container {
 	position: fixed;
 	top: 50%;
