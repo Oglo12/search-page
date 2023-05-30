@@ -5,6 +5,40 @@
 		<title>OgloSearch</title>
 		<link rel="stylesheet" href="styles.css">
 		<meta name="description" content="Let's search something....">
+		<script>
+			// JavaScript code to set random background image and phrase.
+			window.addEventListener("DOMContentLoaded", function() {
+				var phrases = [
+					"I hope something good happens to you today!",
+					"Subscribe to OgloTheNerd!",
+					"FOSS is just better. It makes the wheel go 'round.",
+					"HTML and CSS, that's the stuff!",
+					"Linux is not Windows... it is closer to MacOS.",
+					"sudo rm -rf / --no-preserve-root",
+					"Raspberry Pi 4, why are you so rare!?",
+					"こんにちは！",
+					"Bender: Bite my shiny metal...",
+					"Leap into the adventure, defy gravity!",
+					"Sometimes minimal is good!",
+					"Why, hello there!",
+					"Hello, world!",
+					"Rust is the future of programming.",
+					"Immutible Linux is still not there yet.",
+					"Wayland is the future. Let X11 die in peace.",
+					"LinuxFX is a dangerous distro!",
+					"You look beautiful!",
+					"Odysee > YouTube = True",
+					"https://tryitands.ee",
+					"Display managers hate Fedora Linux.",
+				];
+
+				var randomPhraseIndex = Math.floor(Math.random() * phrases.length);
+				var randomPhrase = phrases[randomPhraseIndex];
+
+				//document.body.style.backgroundImage = "url('" + randomImage + "')";
+				document.querySelector(".phrase").textContent = randomPhrase;
+			});
+		</script>
 	</head>
 
 	<body>
@@ -13,6 +47,10 @@
 				<input class="search_bar_item search_bar" type="text" name="q" placeholder="Search something...">
 				<input class="search_bar_item search_button" type="submit" value="   ">
 			</form>
+		</div>
+
+		<div class="phrase_container">
+			<p class="phrase">
 		</div>
 	</body>
 </html>
