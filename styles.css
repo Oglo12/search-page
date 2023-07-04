@@ -49,12 +49,12 @@ body {
 .search_bar {
 	padding-left: 50px;
 	padding-right: 50px;
-	border-radius: 15px 0px 0px 15px;
+	border-radius: 5px 0px 0px 5px;
 	outline: none;
 }
 
 .search_button {
-	border-radius: 0px 15px 15px 0px;
+	border-radius: 0px 5px 5px 0px;
 	margin-left: -4px;
 	transition: transform 0.3s ease-in-out;
 }
@@ -66,7 +66,7 @@ p {
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	border-radius: 10px;
+	border-radius: 5px;
 	font-family: 'NerdFont', monospace;
 	text-align: center;
 }
