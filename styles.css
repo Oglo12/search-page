@@ -55,6 +55,8 @@ body {
 
 .search_button {
 	border-radius: 0px 5px 5px 0px;
+	padding-left: 32px;
+	padding-right: 42px;
 	margin-left: -4px;
 	transition: transform 0.3s ease-in-out;
 }
